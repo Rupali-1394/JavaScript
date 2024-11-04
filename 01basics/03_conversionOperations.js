@@ -57,3 +57,11 @@ console.log(typeof stringNum);
 let value = 34;
 let negValue = -value;
 console.log(negValue);
+
+console.log(2+2);
+console.log(54*6);
+console.log(45/9);
+console.log(100-89);
+
+
+

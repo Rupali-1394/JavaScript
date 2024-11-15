@@ -63,5 +63,59 @@ console.log(54*6);
 console.log(45/9);
 console.log(100-89);
 
+/// string operations
+let str1="Rupali"
+let str2="Uday"
+
+let str3= str1+str2;
+console.log(str3);
+
+// with no strings
+console.log("1" +2);
+console.log(1+"2");
+console.log("1"+9+7);
+
+console.log(+true);
+console.log(true);
+
+
+console.log(3+(5*3)/2);// float vale 10.5
+console.log((3+4*5)+"4"); //it does 234?/ never do thiskind of code
+
+
+console.log("1"+3+4);// agar string first h then sara string m convert ho jayega
+console.log(1+2+"3");// agar string last m h toh pehle jo operations h woh honge fir string hoga
+
+// tricky conversions
+console.log(+true);
+console.log(+"");//converts to false
+
+let num1, num2, num3;
+num1 = num2=num3 =2+2;//not proficient
+
+let gameCounter =100;
+gameCounter++; // prefix operator and postfix operator read from mdn increment(++)
+console.log(gameCounter);
+
+let x = 3;
+const y = x++;
+console.log(x,y);
+
+// x is 4; y is 3
+
+let x2 = 3n;
+const y2 = x2++;
+console.log(x2, y2);
+
+// x2 is 4n; y2 is 3n
+
+// let x = 3;
+// const y = ++x;
+// // x is 4; y is 4
+
+// let x2 = 3n;
+// const y2 = ++x2;
+// // x2 is 4n; y2 is 4n
+
 
 

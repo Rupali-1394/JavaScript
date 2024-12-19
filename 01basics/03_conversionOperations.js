@@ -2,20 +2,21 @@
 let score =" 44bjkj ";
 
 console.log(typeof score);
-console.log(typeof(score));
+console.log(score);
 
 let valueInNumber = Number(score);// conversion of string into number
-console.log(typeof valueInNumber);
+console.log(typeof valueInNumber); // conversion ho jayega but once check the value to make sure it's a number
 console.log(valueInNumber);// NaN means not a number as 44bjkj is not a pure number
 
 // what if null
 let val =null;
 let valConvert = Number(val)
 console.log(typeof valConvert);
+console.log(valConvert);// 0
 
 // undefined
 let abc = undefined;
-let valInNumber =   (abc);
+let valInNumber =Number(abc);
 console.log(typeof(valInNumber));
 console.log(valInNumber);
 
@@ -29,11 +30,12 @@ Conversion
 true =>1; false => 0;
 
 */
+/*
 // likewise we did in conversion to Number we can do the same for String Bool etc as well 
 // let's do it
 
 
-/*
+
 let isLoggedIn=7765 ;
 let booleanIsLoggedIn = Boolean(isLoggedIn);
 console.log(typeof booleanIsLoggedIn);
@@ -50,9 +52,8 @@ let stringNum = String(someNum);
 console.log(stringNum);
 console.log(typeof stringNum);
 
-
 */
-
+/*
 // ***************** Operations ******************* \\
 let value = 34;
 let negValue = -value;
@@ -93,6 +94,7 @@ console.log(+"");//converts to false
 let num1, num2, num3;
 num1 = num2=num3 =2+2;//not proficient
 
+*/
 let gameCounter =100;
 gameCounter++; // prefix operator and postfix operator read from mdn increment(++)
 console.log(gameCounter);

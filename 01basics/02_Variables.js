@@ -24,6 +24,6 @@ accountEmail="krsonali33@gmail.com";
 accountPassword="5325";
 accountCity="Ranchi";
 // table formate printing
-console.log([accountID,accountEmail,accountPassword,accountCity]);
+console.log([accountID,accountEmail,accountPassword,accountCity, accountState]);
 console.table([accountID,accountEmail,accountPassword,accountCity,accountState]);
 

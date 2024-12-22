@@ -16,6 +16,7 @@ console.log(instructor);
 // }
 // navbar(company = "Srvl")
 
+// basic json talks
 /*++++++++++++++++ Json +++++++++++++++++*/
 // // this is proper json structure 
 // {
